@@ -13,8 +13,9 @@ setup:
 2. upload and run:
 python start.py
 3. upload php files to your server:
- relayPhotoViaPut.php
- relayPhoto.php
- RelayBot.php
+relayPhotoViaPut.php
+relayPhoto.php
+RelayBot.php
+4. Replace the empty id like group and token
 
 Complete!
