@@ -18,6 +18,6 @@ fclose($fp);
 fclose($putdata);
 
 //send to telegram and remove file
-file_get_contents("http://scriptlab.net/telegram/bots/relaybot/relayPhoto.php?user='+$group+'&photoUrl=scriptlab.net/telegram/bots/relaybot/$filename");
+file_get_contents("http://scriptlab.net/telegram/bots/relaybot/relayPhoto.php?user=$group&photoUrl=scriptlab.net/telegram/bots/relaybot/$filename");
 unlink($filename);
 ?>
