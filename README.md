@@ -8,7 +8,7 @@ Hardware:
 4. 5MP Camera for Raspberry PI Zero
 5. reed sensor 
 
-setup:
+Software:
 1. connect the sensor to the raspberry according to the scheme
 2. upload and run:
 python start.py
